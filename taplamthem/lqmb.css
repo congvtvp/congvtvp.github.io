@@ -1,0 +1,16 @@
+table.name-text{
+   text-align: center;
+   border-collapse: collapse ;
+}
+body{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table.name-text tr td.lol{
+    padding-left: 1px;
+    padding-right: 1px;
+}
+table.name-text tr td.loi{
+    padding-left: 10px;
+    padding-right: 1px;
+}
