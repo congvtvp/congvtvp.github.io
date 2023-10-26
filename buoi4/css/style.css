@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#banner{
+    background-color: blue;
+    height: 80px;
+    text-align: center;
+    color: white;
+    line-height: 80px
+}
+#menu{
+    background-color: red;
+    height: 40px;
+    color: white;
+    text-align: center;
+    line-height: 40px
+}
+#main{
+    height: 500px;
+}
+#leftmenu{
+    background-color: blueviolet;
+    width: 20%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    float:left;
+}   
+#main-content{
+    background-color: yellow;
+    width: 60%;
+    height: 100%;
+    color: black;
+    text-align: center;
+    float: left;
+}
+#rightmenu{
+    background-color: green;
+    width: 20%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    float: right;
+}
+#footer{
+    background-color: grey;
+    height: 40px;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+}
