@@ -1,0 +1,40 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+#container{
+    width: 150px;
+    height: 124.52px;
+    border: 1px solid;
+    position: relative;
+    margin: 0 auto;
+
+}
+#container img{
+    width: 100%;
+
+}
+#container #anh {
+    height: 104.52px;
+}
+#title{
+    height: 20px;
+
+}
+#box1{
+    height: 25.48px;
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    opacity: 0.2;
+
+}
+#box2{
+    height: 25.48px;
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+
+}
