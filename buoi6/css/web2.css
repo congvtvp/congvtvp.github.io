@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
 }
-#container{}
+#container{
+    width: 1356.22px;
+}
 #top{
     height: 100px;
-    background-color: cornsilk;
-    padding-left: 30%;
-    padding-right: 29%;
+    background-color: #f9f3f99e;
+    display: flex;
+    justify-content: center;
 }
 #top ul li{
     list-style: none;
@@ -28,7 +30,7 @@
     width: 100%;
 }
 #content{
-    height: 85vh;
+    height: 132vh;
     background-color: aliceblue;
 }
 #content h2{
@@ -44,19 +46,42 @@
     text-align: center;
     padding-top: 30px;
     color: darkgrey;
+    padding-bottom: 30px;
 }
-#content #box{}
-#content #box>#box1{}
-#main{}
+#content #box{
+    width: 31%;
+    float: left;
+   
+    padding-right: 29px;
+    padding-bottom: 22px
+}
+#content #box>#box1 img{
+    width: 100%;
+    border: 5px outset;
+}
+#content #box>#box1{ 
+    border: 5px solid white;    
+    height: 193px
+}
+#content #box>#menu{}
+#content #box>#ct1{
+    padding: 10px 0px 0px
+}
+#content #flo{
+    padding: 0px 55px 0px;
+}
+#main{
+    height: 426.5px;
+}
 #main #text{
     height: 50vh;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     padding: 55px;
 }
 #main #text>#text1{
     width: 70%;
     height: 100%;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     float: left;
 }
 #main #text>#text1 ul li{
@@ -69,8 +94,44 @@
     height: 100%;
     float: right;
 }
-#main #text>#text2 h2{}
+#main #text>#text2 h2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 #main #text>#text2 h5{}
 #footer{
-    height: 60vh;
+    height: 80vh;
+    background-color: #17a0a58c;
+    color: azure;
+}
+#footer h2{
+    padding: 20px 55px 0px;
+}
+#footer h4{
+    padding: 0px 55px 0px;
+}
+#footer #look{
+    width: 100%;
+}
+#footer #look .form .in{
+    height: 30px;
+    width: 934.59px;
+}
+#footer label{
+    padding-bottom: .0,4em;
+}
+#footer #look .form textarea{
+    width: 934.58px;
+}
+#footer .form{
+    padding: 0px 55px 22px;
+}
+#sub{
+    padding: 0px 55px 22px;
+}
+#main #text #text1 .mo1{
+    color: aqua;
+}
+#main #text #text2 h2{
+    color: aqua;
 }
