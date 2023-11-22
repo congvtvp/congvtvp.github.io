@@ -1,0 +1,51 @@
+div{
+
+}
+#main>ul li:hover #content{
+    display: block;
+}
+#menu{
+    float: left;
+    padding: 10px;
+    border: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 200px;
+    background: aquamarine
+}
+#content{
+    position: absolute;
+    background: green;
+    padding: 0px;
+    left: 0px;
+    top: 100%;
+    width: 100%;
+    display: none;
+}
+#content li{
+    list-style: none;
+    border-bottom: 1px solid yellowgreen;
+    padding-top: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 20px;
+    line-height: 5px;
+}
+#menu1{
+    position: relative;
+}
+#content1{
+    position: absolute;
+    left: 100%;
+    width: 100%;
+    padding: 0px;
+    display: none;
+    top: 100%;
+}
+#content1 li{
+    color: black;
+    background: blueviolet;
+}
+#main>ul li ul li#menu1:hover #content1{
+    display: block;
+}
