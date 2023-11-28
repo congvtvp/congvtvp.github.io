@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./style2.css"/> -->
+    <style>
+        .col{
+            width: 25%;
+           
+            float: left;
+            height: 200px;
+            
+        }
+        @media screen and (min-width: 960px) {
+            .col {
+                width: 25%;
+            }
+        }
+        @media screen and (max-width: 960px) {
+            .col {
+                width: 27%;
+            }
+        }
+        @media screen and (max-width: 758px) {
+            .col {
+                width: 50%;
+            }
+        }
+        @media screen and (max-width: 500px) {
+            .col {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+   
+    <div class="topnav">
+        <div class="col" style="background-color: aqua;"></div>
+        <div class="col" style="background-color: rgb(71, 78, 78);"></div>
+        <div class="col" style="background-color: rgb(47, 49, 159);"></div>
+        <div class="col" style="background-color: rgb(132, 255, 0);"></div>
+    </div>
+      
+</body>
+</html>
